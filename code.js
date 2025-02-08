@@ -20,18 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  buttonSearch.addEventListener("click", async () => {
-    const name = searchText.value.trim();
-    if (!name) {
-      alert("Название города");
-      return;
-    }
-
-    const data = await fetchData(name);
-    if (data.error) {
-      alert("Город не найден");
-      return;
-    }
     console.log(data);
 
     cardContent.innerHTML = "";
@@ -58,5 +46,4 @@ document.addEventListener("DOMContentLoaded", () => {
     cardContent.appendChild(cName);
 
     weatherCard.style.display = "block";
-  });
 });
