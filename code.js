@@ -21,6 +21,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
+  const data = await fetchData();
+  if(!data || !data.corrent){
+    alert("Error");
+    return;
+  }
+
     cardContent.innerHTML = "";
 
     const temp = document.createElement("h3");
