@@ -88,39 +88,26 @@ footer {
 }
 
 /*----------------------ПОГОДА--------------------------*/
-.search {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-
 #weatherCard{
     display: none;
     position: absolute;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 220px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
 }
 
 .cardContent{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 350px;
+    width: 100px;
     background-color: rgb(83, 177, 255);
     border-radius: 15px;
     box-shadow: inset 0 0 100px rgba(60, 129, 185, 0.8);
-    padding: 25px;
+    padding: 10px;
 }
 
 #temp{
