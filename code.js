@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .getElementById("weatherCard")
     .querySelector(".cardContent");
 
-  const fetchData = async (cityName) => {
+  const fetchData = async () => {
     try {
       const response = await fetch(
         `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Moscow&aqi=no&lang=ru`
@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return responseJSON;
     } catch (error) {
       console.log("error", error);
+      return null;
     }
   };
 
