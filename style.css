@@ -87,3 +87,72 @@ footer{
     justify-content: flex-start;
     align-items: center;
 }
+
+/*----------------------ПОГОДА--------------------------*/
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#weatherCard{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 350px;
+    background-color: rgb(83, 177, 255);
+    border-radius: 15px;
+    box-shadow: inset 0 0 100px rgba(60, 129, 185, 0.8);
+    padding: 25px;
+}
+
+#temp{
+    display: flex;
+    font: 3.5em arial;
+    font-weight: 700;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    position: relative;
+    width: 96px;
+    left: 210px;
+    margin-top: -80px;
+}
+
+#weather{
+    display: flex;
+    font: 1.5em arial;
+    font-weight: 700;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
+}
+
+#name{
+    display: flex;
+    font: 1.5em arial;
+    font-weight: 700;
+    color: aliceblue;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top: -15px;
+}
+/*------------------------------------------------*/
