@@ -89,7 +89,7 @@ footer {
 
 /*----------------------ПОГОДА--------------------------*/
 #weatherCard{
-    display: none;
+    /*display: none;*/
     position: absolute;
     flex-direction: column;
     align-items: center;
