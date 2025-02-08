@@ -112,7 +112,7 @@ footer {
 
 #temp{
     display: flex;
-    font: 3.5em arial;
+    font: 1em arial;
     font-weight: 700;
     color: aliceblue;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -120,23 +120,23 @@ footer {
 
 img{
     position: relative;
-    width: 96px;
-    left: 210px;
-    margin-top: -80px;
+    width: 56px;
+    left: 35px;
+    margin-top: -40px;
 }
 
 #weather{
     display: flex;
-    font: 1.5em arial;
+    font: 0.7em arial;
     font-weight: 700;
     color: aliceblue;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    margin-top: 35px;
+    margin-top: -5px;
 }
 
 #name{
     display: flex;
-    font: 1.5em arial;
+    font: 0.7em arial;
     font-weight: 700;
     color: aliceblue;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
