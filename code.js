@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
+  /*https://www.weatherapi.com/api-explorer.aspx#current*/
   const apiKey = "86fede440b104e44a0473804250802";
 
   const buttonSearch = document.getElementById("buttonSearch");
