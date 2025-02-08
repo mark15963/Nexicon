@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const fetchData = async (cityName) => {
     try {
       const response = await fetch(
-        `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=moscow&aqi=no&lang=ru`
+        `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Moscow&aqi=no&lang=ru`
       );
       const responseJSON = await response.json();
       return responseJSON;
