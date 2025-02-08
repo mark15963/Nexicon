@@ -1,20 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
   const apiKey = "86fede440b104e44a0473804250802";
 
-  const searchText = document.getElementById("searchText");
   const buttonSearch = document.getElementById("buttonSearch");
   const weatherCard = document.getElementById("weatherCard");
-  const cardContent = document
-    .getElementById("weatherCard")
-    .querySelector(".cardContent");
+  const cardContent = document.getElementById("weatherCard").querySelector(".cardContent");
 
   const fetchData = async () => {
     try {
-      const response = await fetch(
-        `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Moscow&aqi=no&lang=ru`
-      );
+      const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Moscow&aqi=no&lang=ru`);
       const responseJSON = await response.json();
-      return responseJSON;
+      return data;
+
     } catch (error) {
       console.log("error", error);
       return null;
