@@ -20,8 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-    console.log(data);
-
     cardContent.innerHTML = "";
 
     const temp = document.createElement("h3");
