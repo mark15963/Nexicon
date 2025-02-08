@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   const apiKey = "86fede440b104e44a0473804250802";
 
   const buttonSearch = document.getElementById("buttonSearch");
