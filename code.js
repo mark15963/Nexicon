@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   const data = await fetchData();
-  if(!data || !data.corrent){
+  if(!data || !data.current){
     alert("Error");
     return;
   }
